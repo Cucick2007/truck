@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Músicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Músicas</h1>
+        <p>Descubra suas músicas favoritas e seus artistas!</p>
+    </header>
+    
+    <div class="music-list">
+        <div class="music-item">
+            <h2>Música: Bohemian Rhapsody</h2>
+            <p>Artista: Queen</p>
+            <button onclick="showDetails('bohemian')">Ver Detalhes</button>
+            <div id="bohemian" class="music-details"></div>
+        </div>
+        
+        <div class="music-item">
+            <h2>Música: Shape of You</h2>
+            <p>Artista: Ed Sheeran</p>
+            <button onclick="showDetails('shape')">Ver Detalhes</button>
+            <div id="shape" class="music-details"></div>
+        </div>
+        
+        <div class="music-item">
+            <h2>Música: Let it Be</h2>
+            <p>Artista: The Beatles</p>
+            <button onclick="showDetails('letitbe')">Ver Detalhes</button>
+            <div id="letitbe" class="music-details"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Site de Músicas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
